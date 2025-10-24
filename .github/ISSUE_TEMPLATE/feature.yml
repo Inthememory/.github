@@ -1,7 +1,7 @@
 name: "💡 Feature"
 description: Use this template for creating feature
-projects: ["Inthememory/hq"]
-# title: ""
+# projects: []
+title: "[Feature] "
 labels: []
 type: feature
 assignees: []

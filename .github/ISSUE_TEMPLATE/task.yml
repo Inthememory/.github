@@ -1,7 +1,7 @@
 name: "🔨 Task"
 description: Use this template for creating task
-projects: ["Inthememory/hq"]
-# title: ""
+# projects: []
+title: "[Task] "
 labels: []
 type: task
 assignees: []
