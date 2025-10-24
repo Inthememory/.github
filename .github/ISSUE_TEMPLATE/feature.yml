@@ -13,7 +13,7 @@ body:
       description: Explain the problem this FEATURE solves and how it will benefit customers
       placeholder: "Ex: As a user, I want to TASK so that GOAL"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: acceptance-criteria
@@ -25,7 +25,7 @@ body:
         - [ ] Criteria 2
         - [ ] Criteria 3
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: important-notes

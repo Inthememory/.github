@@ -13,7 +13,7 @@ body:
       description: Explain the problem this EPIC solves and how it will benefit customers
       placeholder: "Describe the user problem, proposed solution, and customer value..."
     validations:
-      required: true
+      required: false
   - type: textarea
     id: desired-outcome
     attributes:
@@ -21,7 +21,7 @@ body:
       description: How to know if this epic is successful?
       placeholder: "Describe what data or behavior would result in a successful landing of this epic."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: important-notes
