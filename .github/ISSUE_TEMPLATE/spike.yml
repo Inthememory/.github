@@ -6,16 +6,15 @@ labels: []
 type: spike
 assignees: []
 body: 
-  - type: dropdown
+  - type: markdown
     attributes:
       value: |
         ⚠️ Spike should have a clear scope and be completed in a reasonable time frame.
-  - type: number
+  - type: dropdown
     id: time-box-estimation
     attributes:
       label: "🕒 Time Box Estimation"
       description: How long will this spike take?
-      placeholder: 1
       multiple: false
       options:
         - 1 day
