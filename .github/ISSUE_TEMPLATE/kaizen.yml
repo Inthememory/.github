@@ -1,0 +1,42 @@
+name: "🧠 Kaizen"
+description: Use this template for creating a kaizen
+# projects: []
+title: "[Kaizen] "
+labels: []
+type: kaizen
+assignees: []
+body: 
+  - type: textarea
+    id: plan
+    attributes:
+      label: 📝 Plan
+      description: Problem definition, Impact and Analysis.
+      # placeholder: ""
+    validations:
+      required: false
+
+  - type: textarea
+    id: do
+    attributes:
+      label: 🔨 Do
+      description: Action plan to solve the problem
+    validations:
+      required: false
+
+  - type: textarea
+    id: plan
+    attributes:
+      label: 👁️ Check
+      description: Verify the solution and the impact.
+      # placeholder: ""
+    validations:
+      required: false
+
+  - type: textarea
+    id: plan
+    attributes:
+      label: 🔂 Act
+      description: Learnings to share, next improvements
+      # placeholder: ""
+    validations:
+      required: false
