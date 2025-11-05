@@ -24,7 +24,7 @@ body:
       required: false
 
   - type: textarea
-    id: plan
+    id: check
     attributes:
       label: 👁️ Check
       description: Verify the solution and the impact.
@@ -33,7 +33,7 @@ body:
       required: false
 
   - type: textarea
-    id: plan
+    id: act
     attributes:
       label: 🔂 Act
       description: Learnings to share, next improvements
