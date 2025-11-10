@@ -1,0 +1,63 @@
+name: "🐛 Defect"
+description: A defect is a problem that prevents the software from working as expected.
+# projects: []
+title: "[Defect] "
+labels: []
+type: bug
+assignees: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Observed Behavior"
+      description: Describe the unexpected behavior or performance regression you are observing.
+      placeholder: "Ex: The button does not work when I click it."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Expected Behavior"
+      description: Describe the expected behavior or performance characteristics.
+      placeholder: "Ex: The button should change color when I hover over it."
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: "Impact"
+      description: Describe the impact of the defect on the user or the business.
+      placeholder: "Ex: The user is unable to complete the task, which is a critical path for the business."
+    validations:
+      required: true
+  - type: input
+    id: reproduction-url
+    attributes:
+      label: "Reproduction URL"
+      description: Please enter your URL to provide a reproduction of the issue
+      placeholder: ex. https://github.com/USERNAME/REPO-NAME
+    validations:
+      required: false
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "Reproduction steps"
+      description: Please enter an explicit description of your issue
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
