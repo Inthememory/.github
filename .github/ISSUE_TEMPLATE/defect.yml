@@ -7,7 +7,7 @@ type: bug
 assignees: []
 body:
   - type: textarea
-    id: description
+    id: observed-behavior
     attributes:
       label: "Observed Behavior"
       description: Describe the unexpected behavior or performance regression you are observing.
@@ -15,7 +15,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: expected-behavior
     attributes:
       label: "Expected Behavior"
       description: Describe the expected behavior or performance characteristics.
